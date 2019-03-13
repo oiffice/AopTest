@@ -8,3 +8,12 @@
 * Joinpoint - 當程式執行到某的點，可能是函式被執行的時候或是例外被拋出的時候。在 spring 都為函式被執行的時候。
 * Advice - 定義在特定的 join point 發生的哪個時間點執行實作。其中包含有，`before`, `after`, `afterThrowing`, `afterReturning` and `around`。每個的定義如：[Spring Aop Type of advice section](https://docs.spring.io/spring/docs/4.3.15.RELEASE/spring-framework-reference/html/aop.html)
 * Pointcut - 更明確的定義出在 joinpoint 發生的哪個時間點執行，可能函式內某個方法被執行，或是參數被修改。ex:`@Pointcut("execution(public String org.baeldung.dao.FooDao.findById(Long))")`
+
+## Note
+* execution(modifiers-pattern? ret-type-pattern declaring-type-pattern? name-pattern(param-pattern)throws-pattern?)
+    * modifier-pattern：表示方法的修飾符
+    * ret-type-pattern：表示方法的返回值
+    * declaring-type-pattern?：表示方法所在的路徑
+    * name-pattern：表示方法名
+    * param-pattern：表示方法的参數
+    * throws-pattern：表示方法抛出的異常
