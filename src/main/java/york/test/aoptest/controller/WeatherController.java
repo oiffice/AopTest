@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import york.test.aoptest.service.WeatherService;
-import york.test.aoptest.util.ResultBean;
+import york.test.aoptest.bean.ResultBean;
 
 @RestController
 @RequestMapping("/weather")

@@ -1,4 +1,4 @@
-package york.test.aoptest.util;
+package york.test.aoptest.bean;
 
 import lombok.Data;
 
