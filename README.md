@@ -7,7 +7,7 @@
 * Aspect - 指定某類別為一個 aop 類別，裡面可以定義針對哪些函示作 log 或是驗證等事項
 * Joinpoint - 當程式執行到某的點，可能是函式被執行的時候或是例外被拋出的時候。在 spring 都為函式被執行的時候。
 * Advice - 定義在特定的 join point 發生的哪個時間點執行實作。其中包含有，`before`, `after`, `afterThrowing`, `afterReturning` and `around`。每個的定義如：[Spring Aop Type of advice section](https://docs.spring.io/spring/docs/4.3.15.RELEASE/spring-framework-reference/html/aop.html)
-* Pointcut - 更明確的定義出在 joinpoint 發生的哪個時間點執行，可能函式內某個方法被執行，或是參數被修改。ex:`@Pointcut("execution(public String org.baeldung.dao.FooDao.findById(Long))")`
+* [Pointcut](https://www.baeldung.com/spring-aop-pointcut-tutorial) - 更明確的定義出在 joinpoint 發生的哪個時間點執行，可能函式內某個方法被執行，或是參數被修改。ex:`@Pointcut("execution(public String org.baeldung.dao.FooDao.findById(Long))")`
 
 ## Note
 * execution(modifiers-pattern? ret-type-pattern declaring-type-pattern? name-pattern(param-pattern)throws-pattern?)
@@ -17,3 +17,9 @@
     * name-pattern：表示方法名
     * param-pattern：表示方法的参數
     * throws-pattern：表示方法抛出的異常
+    
+## Reference
+[Spring AOP: What's the difference between JoinPoint and PointCut?](https://stackoverflow.com/questions/15447397/spring-aop-whats-the-difference-between-joinpoint-and-pointcut)
+[Introduction to Pointcut Expressions in Spring](https://www.baeldung.com/spring-aop-pointcut-tutorial)
+[Spring AOP中定义切点（PointCut）和通知（Advice）](https://www.tianmaying.com/tutorial/spring-aop-point-advice)
+[Implementing a Custom Spring AOP Annotation](https://www.baeldung.com/spring-aop-annotation)
