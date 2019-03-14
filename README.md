@@ -19,7 +19,7 @@
     * throws-pattern：表示方法抛出的異常
     
 ## Reference
-[Spring AOP: What's the difference between JoinPoint and PointCut?](https://stackoverflow.com/questions/15447397/spring-aop-whats-the-difference-between-joinpoint-and-pointcut)
-[Introduction to Pointcut Expressions in Spring](https://www.baeldung.com/spring-aop-pointcut-tutorial)
-[Spring AOP中定义切点（PointCut）和通知（Advice）](https://www.tianmaying.com/tutorial/spring-aop-point-advice)
-[Implementing a Custom Spring AOP Annotation](https://www.baeldung.com/spring-aop-annotation)
+* [Spring AOP: What's the difference between JoinPoint and PointCut?](https://stackoverflow.com/questions/15447397/spring-aop-whats-the-difference-between-joinpoint-and-pointcut)
+* [Introduction to Pointcut Expressions in Spring](https://www.baeldung.com/spring-aop-pointcut-tutorial)
+* [Spring AOP中定义切点（PointCut）和通知（Advice）](https://www.tianmaying.com/tutorial/spring-aop-point-advice)
+* [Implementing a Custom Spring AOP Annotation](https://www.baeldung.com/spring-aop-annotation)
