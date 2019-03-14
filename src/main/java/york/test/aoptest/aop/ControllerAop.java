@@ -14,7 +14,7 @@ import york.test.aoptest.util.CityChecker;
 @Slf4j
 public class ControllerAop {
 
-    @Pointcut(value = "execution(* york.test.aoptest.controller.WeatherController.*(..))")
+    @Pointcut(value = "execution(* york.test.aoptest.controller.WeatherController.*(..)) && !@annotation(york.test.aoptest.interfaces.NotChecking)")
     public void inputValidate() {}
 
     @Around("inputValidate()")
