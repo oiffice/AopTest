@@ -6,7 +6,7 @@ public class InvalidateCityNameException extends Exception {
         super();
     }
 
-    public InvalidateCityNameException(Throwable t) {
-        super(t.getMessage());
+    public InvalidateCityNameException(String msg) {
+        super(msg);
     }
 }
