@@ -23,3 +23,4 @@
 * [Introduction to Pointcut Expressions in Spring](https://www.baeldung.com/spring-aop-pointcut-tutorial)
 * [Spring AOP中定义切点（PointCut）和通知（Advice）](https://www.tianmaying.com/tutorial/spring-aop-point-advice)
 * [Implementing a Custom Spring AOP Annotation](https://www.baeldung.com/spring-aop-annotation)
+* [Spring AOP概念Aspect、Advice、JoinPoint、JoinCut與Execution](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/440077/)
